@@ -57,3 +57,14 @@ void Simulation::fillRandom()
 {
     grid.RandomGenration();
 }
+
+void Simulation::clearScreen()
+{
+    for(int row =0 ; row < grid.Rows(); row ++)
+    {
+        for(int col = 0; col < grid.Cols(); col++)
+        {
+            grid.setValue(row, col, 0);
+        }
+    }
+}

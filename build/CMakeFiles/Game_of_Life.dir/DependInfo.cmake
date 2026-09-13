@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/arham/Game_of_life/src/grid.cpp" "CMakeFiles/Game_of_Life.dir/src/grid.cpp.o" "gcc" "CMakeFiles/Game_of_Life.dir/src/grid.cpp.o.d"
   "/home/arham/Game_of_life/src/main.cpp" "CMakeFiles/Game_of_Life.dir/src/main.cpp.o" "gcc" "CMakeFiles/Game_of_Life.dir/src/main.cpp.o.d"
+  "/home/arham/Game_of_life/src/simulation.cpp" "CMakeFiles/Game_of_Life.dir/src/simulation.cpp.o" "gcc" "CMakeFiles/Game_of_Life.dir/src/simulation.cpp.o.d"
   "" "Game_of_Life" "gcc" "CMakeFiles/Game_of_Life.dir/link.d"
   )
 

@@ -1,3 +1,0 @@
-/home/arham/Game_of_life/build/CMakeFiles/Game_of_Life.dir
-/home/arham/Game_of_life/build/CMakeFiles/edit_cache.dir
-/home/arham/Game_of_life/build/CMakeFiles/rebuild_cache.dir

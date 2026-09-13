@@ -53,4 +53,5 @@ CMakeFiles/Game_of_Life.dir/src/grid.cpp.o: \
  /usr/include/c++/15/bits/uses_allocator.h \
  /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
  /usr/local/include/raylib.h \
- /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
+ /usr/include/c++/15/utility /usr/include/c++/15/bits/stl_relops.h

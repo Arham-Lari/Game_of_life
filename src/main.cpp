@@ -1,25 +1,54 @@
 #include "raylib.h"
 #include "simulation.hpp"
 
-const Vector2 windowdim {750,750};
+const int WIN_HEIGHT = 750;
+const int WIN_WINDTH= 750;
 const Color windowColor {29,29,29,255};
-const int FPS = 12;
+int FPS = 12;
 const int CELL_SIZE = 25;
 
 int main(int argc, char* argv[])
 {
-    InitWindow(windowdim.x, windowdim.y, "Game_OF_Life");
+    bool isRunning = false;
+
+    InitWindow(WIN_WINDTH, WIN_HEIGHT, "Game_OF_Life");
     SetTargetFPS(FPS);
 
-    Simulation sim = Simulation(windowdim.x,windowdim.y,CELL_SIZE);
-    sim.fillRandom();
+    Simulation sim = Simulation(WIN_WINDTH,WIN_HEIGHT,CELL_SIZE);
     
     while (!WindowShouldClose()) {
         
         BeginDrawing();
 
+        switch(GetKeyPressed())  {
+          case KEY_SPACE:
+                {
+                    isRunning = false;
+                    SetWindowTitle("Game_OF_Life is paused");
+                    break;
+                }
+            case KEY_ENTER:
+                {
+                    isRunning = true;
+                    SetWindowTitle("Game_OF_Life is active");
+                    break;
+                }
+            case KEY_C:
+                {
+                    sim.clearScreen();
+                    break;
+                }
+            case KEY_A:
+                {
+                    sim.fillRandom();
+                    break;
+                }
+        }
+
         ClearBackground(windowColor);
-        sim.update();
+        if(isRunning){
+            sim.update();
+        }
         sim.draw();
 
         EndDrawing();

@@ -8,6 +8,7 @@ public:
         : grid(width,height,cellsize),
         tem(width, height, cellsize){};
     void fillRandom();
+    void clearScreen();
     void draw();
     void setValue(int row,int col,int value);
     void displayneibour(int row , int col);

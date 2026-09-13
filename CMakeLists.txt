@@ -9,6 +9,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 find_package(raylib REQUIRED)
 
 add_executable(Game_of_Life 
+    src/grid.cpp
+    src/simulation.cpp
   src/main.cpp
 )
 
