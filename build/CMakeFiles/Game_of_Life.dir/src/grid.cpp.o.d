@@ -1,7 +1,5 @@
-CMakeFiles/Game_of_Life.dir/src/main.cpp.o: \
- /home/arham/Game_of_life/src/main.cpp /usr/include/stdc-predef.h \
- /usr/local/include/raylib.h \
- /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
+CMakeFiles/Game_of_Life.dir/src/grid.cpp.o: \
+ /home/arham/Game_of_life/src/grid.cpp /usr/include/stdc-predef.h \
  /home/arham/Game_of_life/src/grid.hpp /usr/include/c++/15/vector \
  /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
@@ -53,4 +51,6 @@ CMakeFiles/Game_of_Life.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/memory_resource.h /usr/include/c++/15/cstddef \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
  /usr/include/c++/15/bits/uses_allocator.h \
- /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple
+ /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
+ /usr/local/include/raylib.h \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h

@@ -1,6 +1,12 @@
 [
 {
   "directory": "/home/arham/Game_of_life/build",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP  -std=gnu++17 -o CMakeFiles/Game_of_Life.dir/src/grid.cpp.o -c /home/arham/Game_of_life/src/grid.cpp",
+  "file": "/home/arham/Game_of_life/src/grid.cpp",
+  "output": "CMakeFiles/Game_of_Life.dir/src/grid.cpp.o"
+},
+{
+  "directory": "/home/arham/Game_of_life/build",
   "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP  -std=gnu++17 -o CMakeFiles/Game_of_Life.dir/src/main.cpp.o -c /home/arham/Game_of_life/src/main.cpp",
   "file": "/home/arham/Game_of_life/src/main.cpp",
   "output": "CMakeFiles/Game_of_Life.dir/src/main.cpp.o"

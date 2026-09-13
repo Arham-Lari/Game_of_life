@@ -2,6 +2,7 @@ Game_of_Life: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
+  CMakeFiles/Game_of_Life.dir/src/grid.cpp.o \
   CMakeFiles/Game_of_Life.dir/src/main.cpp.o \
   /usr/local/lib/libraylib.a \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libpthread.a \
@@ -45,6 +46,8 @@ Game_of_Life: \
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
+
+CMakeFiles/Game_of_Life.dir/src/grid.cpp.o:
 
 CMakeFiles/Game_of_Life.dir/src/main.cpp.o:
 
